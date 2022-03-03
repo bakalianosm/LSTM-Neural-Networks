@@ -12,7 +12,9 @@ python3 forecast.py -d [dataset_name] -n [n_time_series]
 ```
 
 Once the user specifies the dataset and the number of time series to be forecasted, the program starts creating the training and test sets in a split of 80-20 . Firstly the program selects 80% of all the time series that are given for training the model and randomly picks a time series from the dataset and tries to predict its future values. The following image is an image of a stock that predicted from a model that trained in a dataset of 360 time series that used the 80% of them for creating the model.
-![forecast_iamge](img/forecast/forecast-1)
+<p align="center"> 
+ <img width="800" height="500" src="img/forecast/forecast-1.png">
+</p>
 
 Secondly, the program 
 ## Anomaly Detection
