@@ -6,7 +6,7 @@ This is a Deep Learning project that uses Keras API. Forecast and Anomaly Detect
 
 ## Folder Structure
 --- img
---- --- detect
+--- --- detect 
 --- --- forecast
 --- models
 --- --- detect
