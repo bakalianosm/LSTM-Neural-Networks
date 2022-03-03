@@ -20,7 +20,7 @@ Once the user specifies the dataset and the number of time series to be forecast
 </p>
 
 
-*The following image is an image of a stock that predicted from a model that trained in the values of this time series using the 80% of it's values for train and the other 20% for the validation set *
+*The following image is an image of a stock that predicted from a model that trained in the values of this time series using the 80% of it's values for train and the other 20% for the validation set*
 
 <p align="center"> 
  <img width="800" height="500" src="img/forecast/forecast-2.png">
