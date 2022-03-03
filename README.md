@@ -35,5 +35,3 @@ As you can see both the models are accurate to the values of the time series tha
 
 ## Anomaly Detection
 
-
-## Readings
