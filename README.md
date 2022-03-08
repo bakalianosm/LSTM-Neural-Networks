@@ -4,6 +4,9 @@
 ## Project Description
 This is a Deep Learning project that uses **Keras API** . Forecast and Anomaly Detection projects implemented using LSTM Neural Networks after a lot of experiments for choosing hyperparameters.
 
+## Data 
+The data that I used to create this project is a dataset from 360 different stock price values for 700+ diferrent days for each stock.
+
 ## Forecasting
 First the user has to specify the arguments of this program in order to work properly. 
 To run the forecast program try:
