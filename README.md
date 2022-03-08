@@ -34,5 +34,28 @@ As you can see both the models are accurate to the values of the time series tha
 
 To run the anomaly detection program try:
 ```
-python3 anomaly-detection.py [dataset_name] -n [n_time_series] 
+python3 anomaly-detection.py [dataset_name] -n [n_time_series] -mae [error]
 ```
+
+Once the user specifies the dataset, the number of time series to be analysed for anomaly detection and the threshold  (error) value, the program starts creating the training and test sets in a split of 80-20 . The program selects 80% of all the time series that are given for training the model and randomly picks a time series from the dataset and tries to do the anomaly detection. 
+
+
+
+
+
+*The following image is an image of a stock, with a specific threshold, that predicted from a model that trained in a dataset of 360 time series that used the 80% of them for creating the model.*
+<p align="center"> 
+ <img width="800" height="500" src="img/detect/detect-1.png">
+</p>
+
+
+*The following image is an image of a stock, with a specific threshold,  that predicted from a model that trained in the values of this time series using the 80% of it's values for train and the other 20% for the validation set*
+
+<p align="center"> 
+ <img width="800" height="500" src="img/detect/detect-2.png">
+</p>
+
+
+As you can see both the models are accurate to the values of the time series that used to be predicted.
+
+
