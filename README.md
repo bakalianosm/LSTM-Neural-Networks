@@ -43,13 +43,13 @@ Once the user specifies the dataset, the number of time series to be analysed fo
 
 
 
-*The following image is an image of a stock, with a specific threshold, that predicted from a model that trained in a dataset of 360 time series that used the 80% of them for creating the model.*
+*The following image is an image of a stock, with a specific threshold ( = 0.65 ), that predicted from a model that trained in a dataset of 360 time series that used the 80% of them for creating the model.*
 <p align="center"> 
  <img width="800" height="500" src="img/detect/detect-1.png">
 </p>
 
 
-*The following image is an image of a stock, with a specific threshold,  that predicted from a model that trained in the values of this time series using the 80% of it's values for train and the other 20% for the validation set*
+*The following image is an image of a stock, with a specific threshold ( = 0.9 ),  that predicted from a model that trained in the values of this time series using the 80% of it's values for train and the other 20% for the validation set*
 
 <p align="center"> 
  <img width="800" height="500" src="img/detect/detect-2.png">
